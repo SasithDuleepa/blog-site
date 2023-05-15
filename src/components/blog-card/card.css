@@ -1,0 +1,42 @@
+.card-frame{
+    background-color: rgba(230, 237, 234, 0.405);
+    width: 18pc;
+    height: max-content;
+    border-radius: 10px;
+}
+.blog-card-img{
+    background-color: white;
+    width: 16.5pc;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.blog-card-title{
+    text-decoration: none;
+    color: rgba(182, 138, 51, 0.793);
+    font-weight: 500;
+    text-align: start;
+    margin: 20px;
+   
+}
+.blog-card-content{
+    margin: 10px;
+}
+.blog-card-seemore{
+    text-decoration: none;
+    font-weight: 500;
+    margin:  0 0 50px 10pc;
+    color: burlywood;
+}
+
+@media only screen and (max-width: 1000px)  {
+    .card-frame{
+        width: 25pc;
+        margin: 10px;
+    }
+    .blog-card-img{
+        background-color: white;
+        width: 23.7pc;
+        margin:1 auto;
+        
+    }
+}

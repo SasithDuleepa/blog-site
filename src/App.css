@@ -1,32 +1,210 @@
-.App {
+.Home{
+  position: relative;
+}
+.cover-img{
+  display: block;
+  width: 100%;
+  position: sticky;
+
+   /* opacity:80%; */
+  
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #b5b6b620;
+  
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.Home:hover .overlay {
+  height: 100%;
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  position: absolute;
+  overflow: hidden;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.about-section{
+  background-color: rgba(192,120,72,0.2);
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+.about-set1{
+  background-color: transparent;
+  width: 40%;
+  height: max-content;
+  margin: 100px 10px 0 0;
+}
+.about{
+  font-weight: 700;
+  margin: 0 0 0 20px;
+}
+.line{
+  border: solid 3px burlywood;
+  width: 5pc;
+  margin: 10px 0 0 25px;
+}
+.about-paragraph{
+  font-size: 15px;
+  margin: 20px 10px 100px 10px;
+  /* -webkit-transition: font-weight 2s ease-out;
+  -moz-transition: font-weight 2s ease-out;
+  -o-transition:  font-weight 2s ease-out;
+  transition: font-weight 2s ease-out; */
+}
+.about-paragraph:hover{
+  margin: 10px 10px 100px 10px;
+  color: #f49e0afb;
+  font-weight: 450;
+  cursor: pointer;
+
+  transition: all ease 1s;
+}
+.about-set2{
+  background-color: rgb(7, 64, 64);
+  width: 350px;
+  height: 20pc;
+  margin: 150px 0px 30px 10px;
+}
+
+
+.blog{
+  width: 100%;
+  height: max-content;
+  background:white;
+}
+.blog-name{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 10px 0 0 46%;
+
+}
+.blog-line{
+  border: solid 3px burlywood;
+  width: 75px;
+  margin: 5px 0 0 46%;
+}
+.blog-bar{
+  margin: 40px 30px 50px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.contact{
+  width: 100%;
+  height: max-content;
+  background: rgba(222, 184, 135, 0.386);
+}
+.contactme{
+  font-size: 34px;
+  font-weight: 500;
+  margin: 50px 0 0 40%;
+}
+.contact-line{
+  border: solid 3px burlywood;
+  width: 180px;
+  margin: 0px 0 0 40.3%;
+}
+.contact-frame{
+  display: flex;
+  justify-content: center;
+
+}
+.contact-frame1{
+  background-color: transparent;
+  width: 20pc;
+  height: 20pc;
+  margin: 20px 20px 0 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-address{
+  color: black;
+  margin: 120px 0 0 0;
+  
+}
+.contact-email{
+  text-decoration: none;
+  color: #c18419d2;
+  margin: 5px 0 0 0 ;
+}
+.contact-frame2{
+  display: -ms-inline-grid;
+  
+  background-color: transparent;
+  width: 20pc;
+  height: 20pc;
+  margin: 20px 0 0 20px;
+  
+}
+.contac-list{
+  list-style: none;
+  margin: 100px 0 0 0;
+  
+}
+li{
+  margin: 10px 0 0 0;
+}
+.linkedin-icon {
+  color: #c18419d2;
+  
+}
+ .github-icon {
+  color: #c18419d2;
+}
+.facebook-icon{
+  color: #c18419d2;
+}
+.linkedin {
+  color: #c18419d2;
+  margin: 0px 0 0 5px;
+  text-decoration: none;
+}
+.github {
+  color: #c18419d2;
+  margin: 0 0 0 5px;
+  text-decoration: none;
+}
+.facebook{
+  color: #c18419d2;
+  margin: 0 0 0 5px;
+  text-decoration: none;
 }
 
+
+@media only screen and (max-width: 1000px)  {
+  .blog-bar{
+    margin: 40px 30px 50px 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+}
+/* 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +213,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

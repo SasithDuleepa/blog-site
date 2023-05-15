@@ -1,0 +1,26 @@
+.color-nav{
+    background-color: #c07848;
+}
+ .navs{
+    display: flex;
+    justify-content: space-between;
+    width: 15pc;
+   
+   margin:0 10px 0 700px;
+    
+    
+} 
+
+
+.a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .navs{margin-left: 0;}
+
+}

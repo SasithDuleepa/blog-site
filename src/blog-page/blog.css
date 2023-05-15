@@ -1,0 +1,26 @@
+.blog-frame{
+    background-color: antiquewhite;
+    margin: 90px 0 0 15%;
+    width: 70%;
+    text-align: center;
+}
+.home-link{
+    text-decoration: none;
+    color: black;
+    margin: 10px 0 0 20px;
+}
+.blog_title{
+    font-size:25px ;
+    font-weight: 500;
+}
+.blog-img{
+    background-color: white;
+    width: 80%;
+    height: auto;
+}
+.details{
+    margin: 25px 10px 30px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
