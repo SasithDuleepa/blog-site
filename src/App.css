@@ -111,6 +111,7 @@
   width: 100%;
   height: max-content;
   background: rgba(222, 184, 135, 0.386);
+  
 }
 .contactme{
   font-size: 34px;
@@ -125,6 +126,8 @@
 .contact-frame{
   display: flex;
   justify-content: center;
+  align-items: center;
+  
 
 }
 .contact-frame1{
@@ -145,12 +148,14 @@
   margin: 5px 0 0 0 ;
 }
 .contact-frame2{
-  display: -ms-inline-grid;
+  width: 20pc;
+  margin: 0px 0px 10px 200px;
+  
   
   background-color: transparent;
-  width: 20pc;
-  height: 20pc;
-  margin: 20px 0 0 20px;
+  
+  
+  justify-content: center;
   
 }
 .contac-list{
@@ -159,7 +164,7 @@
   
 }
 li{
-  margin: 10px 0 0 0;
+  margin: 10px 10px 0 0;
 }
 .linkedin-icon {
   color: #c18419d2;
@@ -188,6 +193,7 @@ li{
 }
 
 
+
 @media only screen and (max-width: 1000px)  {
   .blog-bar{
     margin: 40px 30px 50px 30px;
@@ -214,3 +220,79 @@ li{
     transform: rotate(360deg);
   }
 } */
+
+
+ 
+ul {
+  display: flex;
+  position: absolute;
+  margin-left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 0px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+ul li a:hover:before {
+  top: 0;
+}
+
+ul li:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+ul li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+ul li:nth-child(5) a:before {
+  background: #676362;
+}

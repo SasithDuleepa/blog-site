@@ -7,7 +7,11 @@
 .home-link{
     text-decoration: none;
     color: black;
-    margin: 10px 0 0 20px;
+    margin: 0px 0 0 0px;
+    position: fixed;
+    top: 20px; /* adjust the top position as desired */
+  right: 20px; /* adjust the right position as desired */
+  z-index: 999; /* ensure the button is on top of other elements */
 }
 .blog_title{
     font-size:25px ;

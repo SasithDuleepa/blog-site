@@ -96,13 +96,30 @@ function Landing() {
             <p className='contact-address'>Polonnaruwa, North central Province</p>
             <a className='contact-email'><BsEnvelope/> duleepajayathiss@gmail.com</a>
           </div>
-          <div className='contact-frame2'>
+          {/* <div className='contact-frame2'>
             <ul className='contac-list'>
              <li><a className='linkedin-icon'><SlSocialLinkedin/></a><a className='linkedin'>LinkedIn</a></li>
              <li> <a className='github-icon'><SlSocialGithub/></a><a className='github'>github</a></li>
               <li><a className='facebook-icon'><SlSocialFacebook/></a><a className='facebook'>facebook</a></li>
             </ul>
-          </div>
+          </div> */}
+          <div className='contact-frame2'>
+        <ul>
+  <li>
+    <a href="#">
+      <i class="fab fa-facebook-f icon"></i>    </a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-twitter icon"></i></a>
+  </li>
+  <li>
+    <a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
+  <li>
+    <a href="#"><i class="fab fa-google-plus-g icon"></i></a></li>
+    <li>
+    <a href="#"><i class="fab fa-github icon"></i></a></li>
+</ul>
+        </div>
         </div>
         
 
