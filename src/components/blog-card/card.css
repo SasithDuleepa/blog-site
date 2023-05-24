@@ -1,7 +1,7 @@
 .card-frame{
     background-color: rgba(230, 237, 234, 0.405);
     width: 18pc;
-    height: max-content;
+    height: auto;
     border-radius: 10px;
 }
 .blog-card-img{
@@ -24,7 +24,10 @@
 .blog-card-seemore{
     text-decoration: none;
     font-weight: 500;
-    margin:  0 0 50px 10pc;
+    
+    margin:  10px 0px 10px 10pc;
+    
+    
     color: burlywood;
 }
 

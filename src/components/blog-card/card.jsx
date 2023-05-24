@@ -8,6 +8,8 @@ function Card(props) {
         <a className="blog-card-title">{props.title}</a>
         <p className='blog-card-content'>{props.content}</p>
         <a href={props.link} className='blog-card-seemore'>See more...</a>
+
+        
     </div>
 
     

@@ -24,7 +24,7 @@ function Navigation() {
             smooth={true}
             duration={500}
           >
-            <a>About</a>
+            <a style={{color: "red"}}>About</a>
           </Link>
         </li>
       </ul>
@@ -93,16 +93,10 @@ function Landing() {
         <div className='contact-line'></div>
         <div className='contact-frame'>
           <div className='contact-frame1'>
-            <p className='contact-address'>Polonnaruwa, North central Province</p>
+            {/* <p className='contact-address'>Polonnaruwa, North central Province</p> */}
             <a className='contact-email'><BsEnvelope/> duleepajayathiss@gmail.com</a>
           </div>
-          {/* <div className='contact-frame2'>
-            <ul className='contac-list'>
-             <li><a className='linkedin-icon'><SlSocialLinkedin/></a><a className='linkedin'>LinkedIn</a></li>
-             <li> <a className='github-icon'><SlSocialGithub/></a><a className='github'>github</a></li>
-              <li><a className='facebook-icon'><SlSocialFacebook/></a><a className='facebook'>facebook</a></li>
-            </ul>
-          </div> */}
+          
           <div className='contact-frame2'>
         <ul>
   <li>

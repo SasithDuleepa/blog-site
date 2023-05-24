@@ -1,12 +1,27 @@
 import React from 'react'
+import { useState } from 'react'
 import './blog.css'
 import react_icon from '../components/pic/react-js.png'
 import node_icon from '../components/pic/node.js.jpg'
 import python_icon from '../components/pic/Python.png'
+import { Link } from 'react-scroll';
+import { useParams } from 'react-router-dom';
 
 function Blog() {
+    
+    const [linkname, setLinkname] = useState()
+    const { parameterName } = useParams();
+    console.log(parameterName)
   return (
+
     <div>
+        <Link
+            to="python"
+            smooth={true}
+            duration={500}
+          >
+            <a style={{color: "red"}}>About</a>
+          </Link>
         <div>
             <a className='home-link' href='../'>go to home page</a>
         </div>
