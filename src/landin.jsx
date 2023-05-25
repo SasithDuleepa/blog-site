@@ -4,6 +4,7 @@ import Footer from './components/footer/footer';
 import './App.css';
 import { Link } from 'react-scroll';
 import cover from './../src/components/pic/sasith.jpg'
+import me from './../src/components/pic/me.png'
 import Toggle from './components/navigation_bar/toggle';
 import Card from './components/blog-card/card';
 import {BsEnvelope} from "react-icons/bs";
@@ -65,7 +66,9 @@ function Landing() {
           and contribute to the larger tech community. Thank you for joining me on this journey.
 
 </p></div>
-        <div className='about-set2'></div>
+        <div >
+          <img className='about-set2' src={me}/>
+        </div>
         
         
       </div>

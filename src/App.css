@@ -77,8 +77,8 @@
   transition: all ease 1s;
 }
 .about-set2{
-  background-color: rgb(7, 64, 64);
-  width: 350px;
+  
+  width: auto;
   height: 20pc;
   margin: 150px 0px 30px 10px;
 }
@@ -140,7 +140,7 @@
   margin: 20px 20px 0 0;
   text-align: center;
 
-  background:#e11937;
+  
   height:10vh;
   display:flex;
   justify-content:center;
@@ -151,7 +151,9 @@
 cursor:pointer;
   position:relative;
   padding:10px 20px;
-  background:white;
+  color: rgb(241, 141, 9);
+  /* background:white; */
+  text-decoration: none;
   font-size:28px;
   border-top-right-radius:10px;
   border-bottom-left-radius:10px;

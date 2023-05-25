@@ -5,6 +5,8 @@
     text-align: center;
 }
 .home-link{
+    width: 40px;
+    height: auto;
     text-decoration: none;
     color: black;
     margin: 0px 0 0 0px;

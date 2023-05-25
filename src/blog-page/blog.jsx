@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import home from './../components/pic/home icon.svg'
 import { useState } from 'react'
 import './blog.css'
 import react_icon from '../components/pic/react-js.png'
@@ -10,20 +11,25 @@ import { useParams } from 'react-router-dom';
 function Blog() {
     
     const [linkname, setLinkname] = useState()
-    const { parameterName } = useParams();
-    console.log(parameterName)
+    const { title } = useParams();
+    console.log(title)
+    useEffect(() => {
+        if(title === 'React.js'){
+            setLinkname('React.js')
+        }else if(title === 'node.js'){
+            setLinkname('node.js')
+        }else if(title === 'Python'){
+            setLinkname('Python')
+        }
+  
+    })
+   
   return (
 
     <div>
-        <Link
-            to="python"
-            smooth={true}
-            duration={500}
-          >
-            <a style={{color: "red"}}>About</a>
-          </Link>
+        
         <div>
-            <a className='home-link' href='../'>go to home page</a>
+            <a href='../'><img className='home-link'  src={home} /></a>
         </div>
         <div className='reactJS'>
             <div className='blog-frame'>
